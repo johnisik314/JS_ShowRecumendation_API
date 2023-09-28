@@ -1,5 +1,9 @@
 # JS_ShowRecumendation_API: TV Show Recommendations by Weather
 
+## Project Overview
+
+Welcome to JS_ShowRecumendation_API, a project that recommends TV shows based on different weather types in your area. This project utilizes two web APIs to provide personalized TV show suggestions. This project is a solo endeavor by John Isik.
+
 ## Project Purpose
 
 JS_ShowRecumendation_API aims to make TV show recommendations based on the current weather in your location. By integrating weather data with TV show genre preferences, the project offers users a unique and weather-appropriate viewing experience.
@@ -36,6 +40,8 @@ To use JS_ShowRecumendation_API for TV show recommendations:
 ## Acknowledgments
 
 Special thanks to the creators of the OpenWeatherMap API and Kitsu API for providing the data sources necessary for this project.
+
+Special thanks to Prof. Law for challenging me with JavaScript.
 
 ## License
 
