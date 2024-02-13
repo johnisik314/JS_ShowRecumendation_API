@@ -12,7 +12,7 @@ function request_handler(req,res){
     console.log(`New Request from ${req.socket.remoteAddress} for ${req.url}`);
     if(req.url === "/"){
         res.writeHead(200, {"Content-Type": "text/html"});
-        const html_stream = fs.createReadStream("form.html");
+        const html_stream = fs.createReadStream("index.html");
         html_stream.pipe(res);
     }
     else if (req.url.startsWith("/submit")){
